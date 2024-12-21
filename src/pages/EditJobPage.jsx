@@ -33,7 +33,6 @@ const EditJobPage = ({updateJobSummit}) => {
                 contactPhone
             }
         }
-        console.log(updatedJob);
         updateJobSummit(updatedJob); 
         
         toast.success("Job Updated Succesfully");
